@@ -2,14 +2,13 @@ body{
     margin: 0;
     padding: 0;
     height: auto;
-    background: black;
+    background: white;
 }
 .first-sec{
     background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    /* width: 100%; */
     color: white;
 }
 .second-sec{
@@ -25,6 +24,14 @@ body{
     text-align: center;
     background-color: white;
 }
-/* h2{
+.fifth-sec{
     text-align: center;
-} */
+}
+table{
+    margin-left: 15%;
+}
+td { 
+    width:150px; 
+    text-align:center; 
+    padding:10px;
+}
