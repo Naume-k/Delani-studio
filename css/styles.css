@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: black;
+}
+.first-sec{
+    background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+}
+
