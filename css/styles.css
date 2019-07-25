@@ -35,9 +35,9 @@ td {
     text-align:center; 
     padding:10px;
 }
-tr{
+/* tr{
     padding:15px;  
-}
+} */
 .sixth-sec{
     padding-top: 35px;
     padding-bottom: 40px;
@@ -49,7 +49,7 @@ tr{
 form.contact-us {
     background: transparent;
     padding-top: 20px; 
-    color: white;
+    color: white; 
 }
 
 form.contact-us input,
@@ -63,7 +63,7 @@ div.contact-btn button {
 }
 
 input.contact-email {
-    margin-left: 240px;
+    margin-left: 20px;
 }
 
 div.contact-btn button {
@@ -82,4 +82,18 @@ div.contact-btn button:hover {
 
     html {
         font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+    }
+    input::placeholder {
+   color: #fff;
+    }
+    textarea::placeholder{
+        color: #fff;
+    }
+    .seventh-sec{
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    .copyright{
+        text-align: center;
     }
