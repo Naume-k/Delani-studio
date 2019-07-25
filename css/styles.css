@@ -35,3 +35,51 @@ td {
     text-align:center; 
     padding:10px;
 }
+tr{
+    padding:15px;  
+}
+.sixth-sec{
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/c_image.jpg");
+    background-repeat: no-repeat;  
+    text-align: center; 
+    color: white;
+}
+form.contact-us {
+    background: transparent;
+    padding-top: 20px; 
+    color: white;
+}
+
+form.contact-us input,
+form.contact-us textarea,
+div.contact-btn button {
+    margin-bottom: 10px;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+input.contact-email {
+    margin-left: 240px;
+}
+
+div.contact-btn button {
+    padding: 7px 10px;
+    width: 150px;
+    font-weight: bold;
+    transition: border 0.2s;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+div.contact-btn button:hover {
+    border: 2px solid #fff;
+}
+    /* background-color:rgba(1, 1, 0.1,0.8); */
+
+    html {
+        font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+    }
