@@ -4,6 +4,7 @@ body{
     height: auto;
     background: white;
 }
+
 .first-sec{
     background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/h_img.jpg");
     background-size: cover;
@@ -11,33 +12,37 @@ body{
     text-align: center;
     color: white;
 }
+
 .second-sec{
     text-align: center;
     background-color: white;
 }
+
 .third-sec{
     text-align: center;
     color: white;
     background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/s_image.jpg")
 }
+
 .fourth-sec{
     text-align: center;
     background-color: white;
 }
+
 .fifth-sec{
     text-align: center;
 }
+
 table{
     margin-left: 15%;
 }
+
 td { 
     width:150px; 
     text-align:center; 
     padding:10px;
 }
-/* tr{
-    padding:15px;  
-} */
+
 .sixth-sec{
     padding-top: 35px;
     padding-bottom: 40px;
@@ -46,6 +51,7 @@ td {
     text-align: center; 
     color: white;
 }
+
 form.contact-us {
     background: transparent;
     padding-top: 20px; 
@@ -78,22 +84,25 @@ div.contact-btn button {
 div.contact-btn button:hover {
     border: 2px solid #fff;
 }
-    /* background-color:rgba(1, 1, 0.1,0.8); */
 
-    html {
-        font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
-    }
-    input::placeholder {
+html {
+    font-family: 'Lato', 'Dosi', 'Open Sans', 'San-serif';
+}
+
+input::placeholder {
    color: #fff;
-    }
-    textarea::placeholder{
-        color: #fff;
-    }
-    .seventh-sec{
-        text-align: center;
-        padding-top: 3%;
-        padding-bottom: 3%;
-    }
-    .copyright{
-        text-align: center;
-    }
+}
+
+textarea::placeholder{
+    color: #fff;
+}
+
+.seventh-sec{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.copyright{
+    text-align: center;
+}
