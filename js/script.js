@@ -13,3 +13,18 @@ $(document).ready(function() {
         $("#click3").toggle();
     });
 });
+
+// $(document).ready(function() {
+//     $("div.image-frame").hover(function() {
+//         $(".classAdd1").addClass("mask flex-center rgba-white-slight");
+//     });
+//     $("div.image-frame").hover(function() {
+//         $(".classAdd2").addClass("mask flex-center rgba-white-slight");
+//     });
+//     $("div.image-frame").hover(function() {
+//         $(".classAdd3").addClass("mask flex-center rgba-white-slight");
+//     });
+//     $("div.image-frame").hover(function() {
+//         $(".classAdd4").addClass("mask flex-center rgba-white-slight");
+//     });
+// });
