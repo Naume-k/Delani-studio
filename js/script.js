@@ -1,3 +1,4 @@
+// toggling what to do
 $(document).ready(function() {
     $(".onCrack1").click(function() {
         $("#click1").toggle();
