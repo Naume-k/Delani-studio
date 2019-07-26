@@ -106,3 +106,8 @@ textarea::placeholder{
 .copyright{
     text-align: center;
 }
+#magic1,
+#magic2,
+#magic3 {
+    display: none;
+}
