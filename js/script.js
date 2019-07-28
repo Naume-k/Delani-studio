@@ -19,7 +19,7 @@ $("button").click(function(party) {
     alert('Thanks ' + ' we have received your message successful. ' + '!');
     party.preventDefault();
 });
-
+ 
 // var btn = document.getElementById("myBtn");
 
 // // When the user clicks on the button, open the modal 
