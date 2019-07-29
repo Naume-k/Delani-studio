@@ -6,7 +6,7 @@ body{
 }
 
 .first-sec{
-    background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/h_img.jpg");
+    background-image: url("../assets/backgrounds/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -21,7 +21,7 @@ body{
 .third-sec{
     text-align: center;
     color: white;
-    background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/s_image.jpg")
+    background-image: url("../assets/backgrounds/s_image.jpg")
 }
 
 .fourth-sec{
@@ -32,7 +32,7 @@ body{
 .sixth-sec{
     padding-top: 35px;
     padding-bottom: 40px;
-    background-image: url("file:///home/wecode/Desktop/special-projects/Delani-studio/assets/backgrounds/c_image.jpg");
+    background-image: url("../assets/backgrounds/c_image.jpg");
     background-repeat: no-repeat;  
     text-align: center; 
     color: white;
@@ -88,11 +88,13 @@ textarea::placeholder{
 .copyright{
     text-align: center;
 }
+
 #magic1,
 #magic2,
 #magic3 {
     display: none;
 }
+
 .fifth-sec {
     align-content: center;
     align-items: center;
@@ -101,9 +103,12 @@ textarea::placeholder{
     width: 80%;
     margin-left: 10%;
 }
+
 h3{
     text-align: center;
 }
-.classAdd1, .classAdd2, .classAdd3, .classAdd4, .classAdd5, .classAdd6, .classAdd7, .classAdd8{
-    display: none;
+
+#pone,#p2,#p3,#p4,#p5,#p6,#p7,#p8{
+    position:relative;
+    top:-100px;
 }

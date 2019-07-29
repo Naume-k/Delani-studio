@@ -12,52 +12,107 @@ $(document).ready(function() {
         $("#magic3").toggle();
         $("#click3").toggle();
     });
+                // hovering images.
+// imgone
+    $("#pone").hide();
+    $("#imgone").animate({opacity:5});
+    $("#imgone").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#pone").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#pone").fadeOut();
+        });
+        // imgtwo
+        $("#p2").hide();
+    $("#img2").animate({opacity:5});
+    $("#img2").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p2").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p2").fadeOut();
+        });
+        // imgthree
+        $("#p3").hide();
+    $("#img3").animate({opacity:5});
+    $("#img3").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p3").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p3").fadeOut();
+        });
+        // imgfour
+        $("#p4").hide();
+    $("#img4").animate({opacity:5});
+    $("#img4").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p4").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p4").fadeOut();
+        });
+        // imgive
+        $("#p5").hide();
+    $("#img5").animate({opacity:5});
+    $("#img5").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p5").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p5").fadeOut();
+        });
+        // imgsix
+        $("#p6").hide();
+    $("#img6").animate({opacity:5});
+    $("#img6").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p6").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p6").fadeOut();
+        });
+        // imgseven
+        $("#p7").hide();
+    $("#img7").animate({opacity:5});
+    $("#img7").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p7").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p7").fadeOut();
+        });
+        // imgeight
+        $("#p8").hide();
+    $("#img8").animate({opacity:5});
+    $("#img8").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#p8").fadeIn();
+        },
+        function(){
+            $(this).stop().animate({opacity:1});
+            $("#p8").fadeOut();
+        });
+   
+    // form
+    $("#myBtn").click(function(feedback){
+        var name=$("#contact-name").val();
+        var email=$("#contact-email").val();
+        var feed=$("#contact-message").val();
+        if((name==="")||(email==="")||(feed==="")){
+            alert("please fill the required fields!");
+        }
+        else{
+            alert(name+", we have recieved your message. Thank you for reaching out to us.");
+        }
+        feedback.preventDefault();
+    })
 });
-
-$("button").click(function(party) {
-    var client = document.getElementById('contact-name').value;
-    alert('Thanks ' + ' we have received your message successful. ' + '!');
-    party.preventDefault();
-});
-
-// var btn = document.getElementById("myBtn");
-
-// // When the user clicks on the button, open the modal 
-// btn.onclick = function(event) {
-//     // Validate form for entry
-//     var x = document.forms["myForm"]["contact-name"].value;
-//     if (x == "") {
-//         alert("Name not entered");
-//         return false;
-//     }
-//     var y = document.forms["myForm"]["contact-email"].value;
-//     if (y == "") {
-//         alert("Email not entered");
-//         return false;
-//     }
-//     var z = document.forms["myForm"]["contact-message"].value;
-//     if (z == "") {
-//         alert("You have no message to send");
-//         return false;
-//     }
-//     var person1Input = $("input#contact-name").val();
-//     $("span#outputName").append(person1Input);
-
-//     $('.toast').toast('show');
-//     event.preventDefault();
-// }
-
-// $(document).ready(function() {
-//     $("div.image-frame").hover(function() {
-//         $(".classAdd1").hover("mask flex-center rgba-red-strong");
-//     });
-//     $("div.image-frame").hover(function() {
-//         $(".classAdd2").addClass("mask flex-center rgba-blue-light");
-//     });
-//     $("div.image-frame").hover(function() {
-//         $(".classAdd3").addClass("mask flex-center rgba-green-slight");
-//     });
-//     $("div.image-frame").hover(function() {
-//         $(".classAdd4").addClass("mask flex-center");
-//     });
-// });
