@@ -23,6 +23,6 @@ Feel free to reach out to me when you happen to have any issue or anything else 
 ### output example
 * a popup message thanking you for the message.
 ### Link to my repository.
-https://github.com/Naume-k/Delani-studio
+https://naume-k.github.io/Delani-studio/
 ### License
 Copyright © 2019 Kobusingye Naume.
